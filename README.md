@@ -39,8 +39,8 @@ So you have bower now and can do this to load the other dependencies:
 
 It looks into bower.json to load jQuery and Pure.css.  
 
-"Start" the webserver with typing the following into the console:
+"Start" the webserver with typing the following into the console:  
 ```node web.js```
 
 In your browser, you can reach the application via:  
-```http://localhost:9999```
+```localhost:9999```
