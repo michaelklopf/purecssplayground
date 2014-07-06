@@ -2,11 +2,11 @@ Discovering pure.css with this playground.
 
 Including
 ===
-Node.js webserver
-Based on express web framework
-Using npm with package.json to install node.js dependencies
-Using bower with bower.json to install front-end dependencies
-Basic project structure with static content, views for html/jade
+Node.js webserver  
+Based on express web framework  
+Using npm with package.json to install node.js dependencies  
+Using bower with bower.json to install front-end dependencies  
+Basic project structure with static content, views for html/jade  
 
 What to do to get started
 ===
@@ -23,9 +23,9 @@ Create a .env file parallel to web.js for secret stuff. You can enter the follow
 ```touch .env```
 
 Add this to your .env:  
-```PORT=9999  
-SECRETAUTH=makelotsofrandomnumbersandcharshere  
-SESSIONKEY=dothatheretoo```  
+>PORT=9999  
+>SECRETAUTH=makelotsofrandomnumbersandcharshere  
+>SESSIONKEY=dothatheretoo
 
 The port can be anything you like.
 
