@@ -1,5 +1,1 @@
-Playground repository.
-
-General : Bower implemented
-
-Register : Playing around with requirejs
+Discovering pure.css with this playground
