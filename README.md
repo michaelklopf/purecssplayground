@@ -43,4 +43,4 @@ It looks into bower.json to load jQuery and Pure.css.
 ```node web.js```
 
 In your browser, you can reach the application via:  
-```localhost:9999```
+>http://localhost:9999
