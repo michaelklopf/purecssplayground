@@ -5,10 +5,74 @@
   <title>Pure Project</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel="stylesheet" href="/lib/pure/base-min.css" />
+  <link rel="stylesheet" href="/lib/pure/pure-min.css" />
+  <link rel="stylesheet" href="/lib/pure/grids-responsive-min.css" />
   <link rel="stylesheet" href="/css/basic.css" />
 </head>
 <body>
+  <div class="pure-g">
+    <div class="pure-u-1-3"><p>First Third</p></div>
+    <div class="pure-u-1-3"><p>Second Third</p></div>
+    <div class="pure-u-1-3"><p>Third Third</p></div>
+  </div>
 
+  <div class="pure-g">
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">One</div>
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">Two</div>
+    <div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-3">Three</div>
+  </div>
+
+  <form class="pure-form">
+    <fieldset>
+        <legend>A compact inline form</legend>
+
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+
+        <label for="remember">
+            <input id="remember" type="checkbox"> Remember me
+        </label>
+
+        <button type="submit" class="pure-button pure-button-primary">Sign in</button>
+    </fieldset>
+  </form>
+
+  <table class="pure-table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Year</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Honda</td>
+            <td>Accord</td>
+            <td>2009</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Toyota</td>
+            <td>Camry</td>
+            <td>2012</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Hyundai</td>
+            <td>Elantra</td>
+            <td>2010</td>
+        </tr>
+    </tbody>
+  </table>
+
+  <img class="pure-img" src="/img/ny.jpg">
   <script src="/lib/jquery/dist/jquery.min.js"></script>
 </body>
 </html>
